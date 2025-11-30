@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Loader2, Volume2 } from 'lucide-react'; 
+ 
 import { useNavigate } from 'react-router-dom';
 
 // Rutas corregidas (asumimos 'contex' sin 't' si tu carpeta es así)

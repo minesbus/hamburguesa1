@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { ShoppingCart, Trash2, XCircle, DollarSign, Package } from 'lucide-react';
+
 import { useCart } from '../contex/CartContext.jsx';
 import { useAuth } from '../contex/AuthContext.jsx';
 import { useToast } from '../contex/ToastContext.jsx'; // Usar Toastify

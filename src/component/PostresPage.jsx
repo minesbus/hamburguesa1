@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cake, Cookie, Coffee, IceCream, Star } from 'lucide-react';
+
 
 const PostresPage = () => {
     // Estilos basados en la paleta rockera de tu index.css

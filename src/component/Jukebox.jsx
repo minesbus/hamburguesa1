@@ -1,7 +1,7 @@
 
 import React from "react";
 import { useMusic } from "../contex/MusicContext.jsx"; 
-import { Play, Pause, SkipForward, SkipBack } from "lucide-react"; 
+
 // 1. ELIMINAMOS LA IMPORTACIÓN DEL ARCHIVO, YA QUE ESTÁ EN PUBLIC/
 
 const Jukebox = () => {

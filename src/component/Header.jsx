@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { LogOut, ShoppingCart, PlusCircle, Menu } from 'lucide-react'; 
+
 import { useNavigate, Link } from 'react-router-dom'; 
 
 import { useAuth } from '../contex/AuthContext.jsx'; // Usando la ruta 'contex'

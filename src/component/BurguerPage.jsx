@@ -3,7 +3,7 @@ import { useProducts } from '../contex/ProductContext.jsx'; // Usamos el context
 import { useAuth } from '../contex/AuthContext.jsx'; // Para ver si el usuario es administrador
 import { useCart } from '../contex/CartContext.jsx'; // Para añadir al carrito
 import { useToast } from '../contex/ToastContext.jsx'; // Para notificaciones
-import { Trash2, ShoppingCart, Search, ChevronLeft, ChevronRight, Edit } from 'lucide-react';
+
 import { useNavigate } from 'react-router-dom';
 
 const BurguerPage = () => {

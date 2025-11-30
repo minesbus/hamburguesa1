@@ -1,16 +1,15 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// https://vitejs.dev/config/
 export default defineConfig({
+  base: '/', // Asegúrate de que esto esté aquí
   plugins: [react()],
-  
-  base: '/', 
-
-  // SOLUCIÓN FINAL (¡CON AMBAS LIBRERÍAS EXTERNALIZADAS!)
   build: {
     rollupOptions: {
-      external: ['tone', 'lucide-react'] // Esto resuelve TODOS los problemas de Rollup.
-    }
-  }
+      external: [
+        'tone',
+        'lucide-react' // <<-- ESTO ES LO IMPORTANTE
+      ],
+    },
+  },
 });

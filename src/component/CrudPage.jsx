@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { PlusCircle, Save, XCircle } from 'lucide-react';
+
 
 // URL de la API Mock (Usamos la URL de trabajo)
 const API_URL = 'https://690fa2d345e65ab24ac46de4.mockapi.io/prductos'; 

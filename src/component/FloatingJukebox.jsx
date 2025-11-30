@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useMusic } from "../contex/MusicContext.jsx"; // <-- AJUSTADO A MINÚSCULAS
-import { Play, Pause, SkipForward, SkipBack, Music, ChevronDown } from "lucide-react";
+
 
 // Este componente se renderiza en App.jsx para estar siempre visible.
 const FloatingJukebox = () => {
